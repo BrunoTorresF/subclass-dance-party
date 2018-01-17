@@ -7,6 +7,7 @@ body{
   background-color:#444;
   font-size: 18px;
   background-image: url("bk-jellyfish-jam-big.jpg");
+  background-size: cover;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -19,9 +20,15 @@ body, a:link, a:visited, a:active{
   height:32px;
   background-color: #555;
 }
+.lineUpButton{
+  background-color: #AA8CC5;
+  width: 10em;
+  height: 2.4em;
+}
 .title{
   background-color: #777;
 }
+
 .tinted-image {
  max-width: 100%;
  height: auto;

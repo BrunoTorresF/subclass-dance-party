@@ -35,4 +35,25 @@ $(document).ready(function() {
   //    audio.play();
 //  });​
   $('#audio_play').get(0).play();
+  $('.lineUpButton').on('click', function(event) {
+    $('.dancer').animate({left: '200px'});
+  });
 });
+/*
+body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+}
+var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"];
+var color = Math.floor(Math.random() * colors.length);
+     $("html body").animate({
+       backgroundColor: colors[color],
+       color: colors[color]
+     }, 1000);
+     $(".button").animate({
+       backgroundColor: colors[color]
+     }, 1000);
+   }
+ });*/
