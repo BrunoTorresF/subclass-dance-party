@@ -23,11 +23,16 @@ $(document).ready(function() {
 
     // make a dancer with a random position
 
-    var dancer = dancerMakerFunction(
+    var dancer = new dancerMakerFunction(
       $("body").height() * Math.random(),
       $("body").width() * Math.random(),
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
   });
+  //var audio = $("#audio_play")[0];
+  //$(".addDancerButton").on('click', function() {
+  //    audio.play();
+//  });​
+  $('#audio_play').get(0).play();
 });

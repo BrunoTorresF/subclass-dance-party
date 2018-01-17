@@ -6,22 +6,27 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
-    <!--<script src="src/blinkyDancer.js"></script>-->
+    <script src="src/blinkyDancer.js"></script>
     <script src="src/spongebob.js"></script>
     <script src="src/jellyfish.js"></script>
     <script src="src/squidward.js"></script>
     <script src="src/patrick.js"></script>
-    <script src="src/init.js"></script>
   </head>
 
   <body>
     <div class="topbar">
       <span class="title">JELLYFISH JAM</span>
-      <!--<a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a> -->
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeJellyDancer">add a Jellyfish</a>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeSpongeDancer">add SpongeBob</a>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeSquidDancer">add Squidward</a>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makePatrickDancer">add Patrick</a> </div>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="blinkyDancer">add a blinky dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="jellyFish">add a Jellyfish</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="SpongeBob">add SpongeBob</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="SquidWard">add Squidward</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="PatrickStar">add Patrick</a>
+      <button name='lineUp'>Line Up</button>
+    </div>
+    <script src="src/init.js"></script>
+    <audio id="audio_play">
+        <source src="stadium-rave.mp3" type="audio/mp3" />
+    </audio>
   </body>
 
 </html>

@@ -1,20 +1,12 @@
-var JellyFish = function(top, left, timeBetweenSteps) {
-  Dancer.call(this, arguments);
-  this.oldStep = Dancer.prototype.step();
-  this.$node.prepend('<img id="jellyFish" src="images/jellyfish.gif"/>');
+var jellyFish = function(top, left, timeBetweenSteps) {
+  Dancer.call(this, top, left, timeBetweenSteps);
+  this.$node.addClass('jellyfish').prepend("<img src='jellyfish.gif' height=200px width=200px/>");
 };
 
-JellyFish.prototype = Object.create(Dancer.prototype);
-JellyFish.prototype.constructor = JellyFish;
+jellyFish.prototype = Object.create(Dancer.prototype);
+jellyFish.prototype.constructor = jellyFish;
 
-JellyFish.prototype.step = function() {
-  this.oldStep();
+jellyFish.prototype.step = function() {
+  Dancer.prototype.step.call(this);
   this.$node.toggle();
-};
-
-var makeJellyFish = function(top, left, timeBetweenSteps){
-
-  var jelly = new JellyFish(top, left, timeBetweenSteps);
-  window.dancers.push(jelly);
-  return jelly;
 };
