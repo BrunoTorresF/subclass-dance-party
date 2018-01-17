@@ -54,3 +54,36 @@ body, a:link, a:visited, a:active{
  height: 5px;
  width: 5px;
 }
+.dancer.patrick {
+ /*background-image: url("https://media.giphy.com/media/rdXF0gnAyUAfK/giphy.gif");*/
+ background-repeat: no-repeat;
+ background-size: 100%;
+ position:absolute;
+ border: none;
+ top: 50px;
+ left: 50px;
+ height: 5px;
+ width: 5px;
+}
+.dancer.squidward {
+ /*background-image: url("https://media.giphy.com/media/rdXF0gnAyUAfK/giphy.gif");*/
+ background-repeat: no-repeat;
+ background-size: 100%;
+ position:absolute;
+ border: none;
+ top: 50px;
+ left: 50px;
+ height: 5px;
+ width: 5px;
+}
+.dancer.spongebob {
+ /*background-image: url("https://media.giphy.com/media/rdXF0gnAyUAfK/giphy.gif");*/
+ background-repeat: no-repeat;
+ background-size: 100%;
+ position:absolute;
+ border: none;
+ top: 50px;
+ left: 50px;
+ height: 5px;
+ width: 5px;
+}
