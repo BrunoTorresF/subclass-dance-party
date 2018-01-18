@@ -39,7 +39,7 @@ $(document).ready(function() {
     $('.dancer').animate({left: '200px'});
   });
 });
-/*
+/* finish lineUpButton
 body {
   background-color: #333;
   color: #333;
